@@ -1,0 +1,72 @@
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+.header .logo .the-togglar {
+  right: auto;
+  left: 15px;
+}
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+.header .navbar li {
+  float: right;
+}
+@media (max-width: 767px) {
+  .header .navbar li {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .services .box {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .players .player-box {
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  .players .player-box {
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .lorem .lorem-box {
+    float: right;
+  }
+}
+
+.footer .gallery,
+.footer .info,
+.footer .contact {
+  float: right;
+}
+@media (min-width: 768px) {
+  .footer .gallery .img-box img {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .footer .gallery .img-box .text {
+    float: right;
+  }
+}
+.footer .copyright .copy-text {
+  text-align: right;
+}
+.footer .copyright .author {
+  text-align: left;
+}
+.footer .copyright .copy-text,
+.footer .copyright .author {
+  float: right;
+}/*# sourceMappingURL=main-rtl.css.map */

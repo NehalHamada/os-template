@@ -1,0 +1,133 @@
+.slider {
+  blockquote {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, tahoma;
+    color: #5e5e5e;
+    width: 80%;
+    margin: 30px auto;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-bullets {
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #d1d1d1;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      border: 2px solid $greyColor;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        background-color: transparent;
+        border: 2px solid #333;
+      }
+    }
+  }
+}
+.services {
+  .box {
+    @media #{$minMedium} {
+      float: $float-left;
+      width: (100% / 3);
+      &:not(:last-of-type) {
+        padding-right: 20px;
+      }
+    }
+    @media #{$maxMobile} {
+      i {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+    .service-title {
+      color: #666;
+      i {
+        font-size: 40px;
+        position: relative;
+        top: 4px;
+        margin-right: 4px;
+      }
+    }
+    .service-description {
+      color: #777;
+      line-height: 1.5;
+    }
+    .service-link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+
+.players {
+  .player-box {
+    @media #{$minSmall} {
+      float: $float-left;
+      width: (100% / 2);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    @media #{$minMedium} {
+      width: (100% / 3);
+      text-align: $text-left;
+      margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @media #{$minLarge} {
+      width: (100% / 5);
+    }
+    @media #{$maxMobile} {
+      margin-bottom: 40px;
+    }
+    .player-img {
+      width: 300px;
+      height: 200px;
+      max-width: 100%;
+    }
+    .player-title {
+      color: #666;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+    .player-description {
+      color: #777;
+      line-height: 1.5;
+    }
+    .player-link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+
+.lorem {
+  .lorem-box {
+    @media #{$minSmall} {
+      float: $float-left;
+      width: (94% / 3);
+      margin-right: 15px;
+    }
+    @media #{$maxMobile} {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
